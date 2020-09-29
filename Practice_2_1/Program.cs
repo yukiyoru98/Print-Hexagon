@@ -13,7 +13,7 @@ namespace Practice_2_1
             while (true)
             {
                 int n = 0;
-                Console.WriteLine("Enter a number(>1), enter 0 to quit:");
+                Console.Write("Enter a number(>1), enter 0 to quit:");
                 n = int.Parse(Console.ReadLine());
                 if (n == 0)
                 {
@@ -43,7 +43,7 @@ namespace Practice_2_1
                                 }
                                 else
                                 {
-                                    Console.Write("-");
+                                    Console.Write(" ");
                                 }
                             }
                             else
@@ -72,7 +72,7 @@ namespace Practice_2_1
                                 }
                                 else
                                 {
-                                    Console.Write("-");
+                                    Console.Write(" ");
                                 }
                             }
                             else
